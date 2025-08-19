@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* nav style */
+.btn-prymari{
+    /* Group 3 */
+    color: white;
+    background-color: rgba(253, 110, 10, 1);
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: rgba(24, 24, 24, 1);
+}
+.nav-title2{
+    color: rgba(253, 110, 10, 1);
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+/* banner style */
+.baner-greeting{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: Open Sans;
+    
+}
+.baner-title{
+    font-weight: bold;
+    font-size: 85px;
+    font-family: Open Sans;
+}
+.pragrap{
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.banner-profileimg{
+    width: 580px;
+
+}
+.bennar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
